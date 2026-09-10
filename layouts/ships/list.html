@@ -1,0 +1,13 @@
+{{ define "body_classes" }}page-ships-list{{ end }}
+
+{{ define "main" }}
+  <div class="intro">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+  </div>
+  {{ .Content }}
+  {{ $ships := where .Pages "Type" "ships" }}
+  {{ range $ships }}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}

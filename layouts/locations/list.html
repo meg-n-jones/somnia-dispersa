@@ -1,0 +1,13 @@
+{{ define "body_classes" }}page-locations-list{{ end }}
+
+{{ define "main" }}
+  <div class="intro">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+  </div>
+  {{ .Content }}
+  {{ $locations := where .Pages "Type" "locations" }}
+  {{ range $locations }}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}
