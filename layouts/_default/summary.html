@@ -1,4 +1,9 @@
 <div class="summary">
-  <h2 class="summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <a href="{{ .RelPermalink }}">
+    {{ if .Params.image }}
+      <img alt="{{.Params.imageAltAttribute | default "list page image"}}" src="{{ print .RelPermalink (.Params.image | relURL) }}" class="summary-image"/>
+    {{ end }}
+    <h2 class="summary-title">{{ .Title }}</h2>
+  </a>
   <p class="summary-description">{{ .Params.description }}</p>
 </div>

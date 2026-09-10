@@ -1,6 +1,8 @@
 +++
 title = "Isle of Polaris"
 description = "An island, once shrouded in a smog which the sun, adventurers, and those living could not penetrate, rests of the precipice of destruction when after the smog clears, a band of opportunists and the followers of an ill-minded cult threaten to take everything from those who've lived in the smoke for centuries."
+[params]
+    image = "images/image.png"
 +++
 
 # Formation of Polaris
@@ -12,7 +14,7 @@ Not much is known about the Polaris before the current tribe, the Locheyue, came
 
 # Geography
 
-The Isle of Polaris is on the smaller side, with a couple of mountains towards the middle of the island. Most of the island is covered by trees of varying types, so when the smog cleared about 20 years before Marlowe’s birth, the sun did little to touch the soil of its lost land. 
+The Isle of Polaris is a decent size, with a couple of mountains towards the middle of the island. Most of the island is covered by trees of varying types, so when the smog cleared about 20 years before Marlowe’s birth, the sun did little to touch the soil of its lost land. 
 
 
 # Flora
