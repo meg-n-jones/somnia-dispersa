@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Locations on My New Hugo Project</title>
+		<link>http://localhost:1313/location/</link>
+		<description>Recent content in Locations on My New Hugo Project</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 09 Sep 2026 21:07:18 -0400</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/location/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Somnia Dispersa</title>
+				<link>http://localhost:1313/location/somnia-dispersa/</link>
+				<pubDate>Wed, 09 Sep 2026 21:07:18 -0400</pubDate>
+				<guid>http://localhost:1313/location/somnia-dispersa/</guid>
+				<description>&lt;h2 id=&#34;this-is-a-first-page&#34;&gt;This is a first page&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt; and &lt;em&gt;Slanted&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Visit your mom&amp;rsquo;s house.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
